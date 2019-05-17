@@ -1,1 +1,3 @@
 input_stream = io.TextIOWrapper(sys.stdin.buffer, encoding='windows-1252')
+
+dsadas
