@@ -21,13 +21,12 @@ Figure 1.1 shows the results of the execution of the software for the first scen
 
 <img src="images/1.png"></br><b>Figure 1.1 First scenario</b></br>
 
-The car from left with id 4 and the car from rigth with id 1 are both arriving at the bridge at the same time 
-20:26:49 and they are passing simultaneously the bridge and arriving each to the other side at 20:26:50.</br>
+The car from the left side with id 4 and the car from the rigth side with id 1 are both arriving at the bridge at the same time 
+at 20:26:49 and they are passing simultaneously the bridge and each arrived to the other side at 20:26:50.</br>
 
 # Second scenario 
 Figure 1.2 shows the results of the execution of the software for the second scenario. </br></br>
 <img src="images/2.png"></br><b>Figure 1.2 Second scenario</b></br>
 
-The car from left with id 5 and the car from rigth with id 2 are both arriving at the bridge at the same time 
-20:27:54 but they don't cross the bridge simultaneously. The car from left with id 5 arrived accross the bridge at 20:27:55 and the car from ride with id 2 arrived accross the bridge at 20:27:57, which means she wait for two second at the bridge and started to cross the bridge at 20:27:56</br>.
+The car from the left side with id 5 and the car from the rigth side with id 2 are both arriving at the bridge at the same time at 20:27:54 but they don't cross the bridge simultaneously. The car from the left side with id 5 arrived accross the bridge at 20:27:55 and the car from the right side with id 2 arrived accross the bridge at 20:27:57, which means it waited for two second at the bridge and started to cross the bridge at 20:27:56</br>.
 
