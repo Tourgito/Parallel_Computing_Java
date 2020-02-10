@@ -1,6 +1,6 @@
 # Parallel computing with Java
 
-This is an example of parallel computing with Java. The example has to do with a bridge that cars from both of it sides are crossing it. The cars are the threads of the system and the bridge is the common resource of the system that the threads try to access. </br>
+This is an example of parallel computing with Java. The example has to do with a bridge that cars from both of its sides are crossing it. The cars are the threads of the system and the bridge is the common resource of the system that the threads try to access. </br>
 
 The system implements four scenarios.</br>
 <ol>
