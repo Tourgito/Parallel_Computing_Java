@@ -1,4 +1,4 @@
-package hfdhfd;
+package Code;
 
 import java.util.Scanner;
 
