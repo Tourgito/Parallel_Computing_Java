@@ -13,19 +13,21 @@ public class Main {
 		left_car[] l_c = new left_car[100];
 		  
 		Scanner input = new Scanner(System.in);
-		System.out.println("Για να τρεξετε το σεναριο που θελετε πληκτρολογηστε ενα απο τους παρακατω κωδικους.");
-		System.out.println("Σεναριο πρωτο: 1");
-		System.out.println("Σεναριο δευτρο: 2");
-		System.out.println("Σεναριο τριτο: 3");
-		System.out.println("Σεναριο τεταρτο: 4");		
+		System.out.println("To run one of the scenarios type the number next to it.");
+		System.out.println("First scenario: 1");
+		System.out.println("Second scenario: 2");
+		System.out.println("Third scenario: 3");
+		System.out.println("Fourth scenario: 4");		
 		int scenario = input.nextInt();
 
 		
-		System.out.println("Ποσα αμαξια θελετε να ερθουν απο αριστερα;");
+		System.out.println("How many cars do you want to come from left;");
+
 		int number_of_left_cars = input.nextInt();
 		bridge.setLeft_cars_will_pass(number_of_left_cars);
 		
-		System.out.println("Ποσα αμαξια θελετε να ερθουν απο δεξια;");
+		System.out.println("How many cars do you want to come from Right;");
+
 		int number_of_right_cars = input.nextInt();
 		bridge.setRight_cars_will_pass(number_of_right_cars);
 		
@@ -36,10 +38,9 @@ public class Main {
 		    
 		    
 		
-		//Sths grammes kwdika dimiourgei ta threads
-		//gia ta orismata pou pernaw sta threads deita ta sxolia
-		//twn kataskeuastwn twn klasewn.
-		for (int i=0; i<number_of_left_cars; i++) 
+	
+		//Creates the threads
+		for (int i=0; i<number_of_left_cars; i++)
 		{
 			l_c[i] = new left_car(bridge,i+1,scenario);
 		}
@@ -51,7 +52,7 @@ public class Main {
 
 		
 		
-		//sths grammes kwdika trexei ta threads.
+		//Runs the threads
 		for (int i=0;i<number_of_left_cars;i++)
 		{
 			l_c[i].start(); 
