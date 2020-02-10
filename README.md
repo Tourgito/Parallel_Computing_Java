@@ -13,11 +13,11 @@ The system implements four scenarios.</br>
 
 # Examples
 
-In all the scenarios a car needs one second to cross the bridge.</br></br>
+Next, will be presented the results of the execution of the software for the first two scenarios. Generally, in all the scenarios a car needs one second to cross the bridge.</br></br>
 
 
 # First scenario 
-Figure 1.1 shows the results of the excecution of the software for the first scenario. </br>
+Figure 1.1 shows the results of the execution of the software for the first scenario. </br>
 
 <img src="images/1.png"></br><b>Figure 1.1 First scenario</b></br>
 
@@ -25,6 +25,9 @@ The car from left with id 4 and the car from rigth with id 1 are both arriving a
 20:26:49 and they are passing simultaneously the bridge and arriving each to the other side at 20:26:50.</br>
 
 # Second scenario 
-Figure 1.2 shows the results of the excecution of the software for the second scenario. </br>
+Figure 1.2 shows the results of the execution of the software for the second scenario. </br></br>
 <img src="images/2.png"></br><b>Figure 1.2 Second scenario</b></br>
+
+The car from left with id 5 and the car from rigth with id 2 are both arriving at the bridge at the same time 
+20:27:54 but they don't cross the bridge simultaneously. The car from left with id 5 arrived accross the bridge at 20:27:55 and the car from ride with id 2 arrived accross the bridge at 20:27:57, which means she wait for two second at the bridge and started to cross the bridge at 20:27:56</br>.
 
